@@ -1,0 +1,10 @@
+void InicializaWifi(void);
+void cria_Arquivo(char* nome, char* dado);
+void append_Arquivo_Json(void);
+int length(char* dado);
+void inicia_Post(void);
+void Post(void);
+void Post2(void);
+void recebe(void);
+//void verifica_tamanho_arquivo(void);
+//void buffer_tamanho_arquivo(void);

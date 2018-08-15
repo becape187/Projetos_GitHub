@@ -1,0 +1,136 @@
+/* Microchip Technology Inc. and its subsidiaries.  You may use this software 
+ * and any derivatives exclusively with Microchip products. 
+ * 
+ * THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS".  NO WARRANTIES, WHETHER 
+ * EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED 
+ * WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A 
+ * PARTICULAR PURPOSE, OR ITS INTERACTION WITH MICROCHIP PRODUCTS, COMBINATION 
+ * WITH ANY OTHER PRODUCTS, OR USE IN ANY APPLICATION. 
+ *
+ * IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, 
+ * INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND 
+ * WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP HAS 
+ * BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE.  TO THE 
+ * FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS 
+ * IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF 
+ * ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
+ *
+ * MICROCHIP PROVIDES THIS SOFTWARE CONDITIONALLY UPON YOUR ACCEPTANCE OF THESE 
+ * TERMS. 
+ */
+
+/* 
+ * File:   
+ * Author: 
+ * Comments:
+ * Revision history: 
+ */
+
+#define tledRX TRISFbits.TRISF5
+#define tledTX TRISFbits.TRISF6
+#define tledStatus TRISFbits.TRISF7
+
+#define ledRX LATFbits.LATF5
+#define ledTX LATFbits.LATF6
+#define ledStatus LATFbits.LATF7
+
+#define tG1COMM TRISEbits.TRISE2
+#define tG2COMM TRISEbits.TRISE1
+#define tG3COMM TRISEbits.TRISE0
+#define tG4COMM TRISAbits.TRISA5
+#define tG5COMM TRISAbits.TRISA4
+#define tG6COMM TRISCbits.TRISC2
+#define tG7COMM TRISFbits.TRISF3
+#define tG8COMM TRISFbits.TRISF2
+#define tG9COMM TRISFbits.TRISF1
+
+#define oG1COMM LATEbits.LATE2
+#define oG2COMM LATEbits.LATE1
+#define oG3COMM LATEbits.LATE0
+#define oG4COMM LATAbits.LATA5
+#define oG5COMM LATAbits.LATA4
+#define oG6COMM LATCbits.LATC2
+#define oG7COMM LATFbits.LATF3
+#define oG8COMM LATFbits.LATF2
+#define oG9COMM LATFbits.LATF1
+
+#define iG1COMM PORTEbits.RE2
+#define iG2COMM PORTEbits.RE1
+#define iG3COMM PORTEbits.RE0
+#define iG4COMM PORTAbits.RA5
+#define iG5COMM PORTAbits.RA4
+#define iG6COMM PORTCbits.RC2
+#define iG7COMM PORTFbits.RF3
+#define iG8COMM PORTFbits.RF2
+#define iG9COMM PORTFbits.RF1
+
+
+#define tG1IO TRISDbits.TRISD7
+#define tG2IO TRISDbits.TRISD6
+#define tG3IO TRISDbits.TRISD5
+#define tG4IO TRISDbits.TRISD4
+#define tG5IO TRISDbits.TRISD3
+#define tG6IO TRISDbits.TRISD2
+#define tG7IO TRISDbits.TRISD1
+#define tG8IO TRISDbits.TRISD0
+
+
+#define oG1IO LATDbits.LATD7
+#define oG2IO LATDbits.LATD6
+#define oG3IO LATDbits.LATD5
+#define oG4IO LATDbits.LATD4
+#define oG5IO LATDbits.LATD3
+#define oG6IO LATDbits.LATD2
+#define oG7IO LATDbits.LATD1
+#define oG8IO LATDbits.LATD0
+
+
+#define iG1IO PORTDbits.RD7
+#define iG2IO PORTDbits.RD6
+#define iG3IO PORTDbits.RD5
+#define iG4IO PORTDbits.RD4
+#define iG5IO PORTDbits.RD3
+#define iG6IO PORTDbits.RD2
+#define iG7IO PORTDbits.RD1
+#define iG8IO PORTDbits.RD0
+
+
+
+//WIFI
+#define tWifiReset tG4COMM
+#define WifiReset oG4COMM
+
+#define tRunning tG5COMM
+#define Running iG5COMM
+
+#define tLinkUp tG2COMM
+#define LinkUp iG2COMM
+
+#define tMiniAP tG3COMM
+#define MiniAP oG3COMM
+
+#define tWakeUp tG1COMM
+#define WakeUp_Wifi oG1COMM
+
+#define tCTSwifi TRISBbits.TRISB2
+#define CTSwifi  PORTBbits.RB2
+
+#define tRTSWifi TRISBbits.TRISB3
+#define RTSWifi PORTBbits.RB3
+
+
+//PLACA 2AI-2DI-1RO
+/////////////////////////////////
+
+#define tANALOG_IN  tG1IO
+#define tDIGITAL_1  tG2IO
+#define tDIGITAL_2  tG3IO
+#define tRELE       tG4IO
+#define tANALOG_CMD tG5IO
+
+
+#define ANALOG_IN   iG1IO
+#define DIGITAL_1   iG2IO
+#define DIGITAL_2   iG3IO
+#define RELE        oG4IO
+#define ANALOG_CMD  oG5IO

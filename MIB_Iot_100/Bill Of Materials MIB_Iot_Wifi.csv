@@ -1,0 +1,10 @@
+Category,Quantity,References,Value,Stock Code,Unit Cost
+Capacitors,2,"C1,C4",100n,1276-1003-1-ND,"R$0,10"
+Capacitors,1,C2,10uF,478-8150-1-ND,"R$0,32"
+Capacitors,1,C3,470pF,399-7067-1-ND,"R$0,38"
+Capacitors,1,C5,470uF,493-2181-1-ND,"R$0,49"
+Resistors,7,R1-R7,330R,RHM330KCT-ND,"R$0,10"
+Integrated Circuits,1,U1,SPWF01SC.21,497-14639-ND,"R$13,76"
+Miscellaneous,1,L3,4.7uH,587-2907-1-ND,"R$0,34"
+Miscellaneous,1,LEDS,HLW8S-2C7LF,609-1821-ND,"R$0,22"
+Miscellaneous,1,PMAIN,ROE-0505S,945-1655-5-ND,"R$2,75"

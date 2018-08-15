@@ -1,0 +1,8 @@
+"I:\Projetos_Servidor\Ultragaz\Ultragaz\VendingMachine\obj\ARM\Release\ilc\in\VendingMachine.exe"
+/Lib:"I:\Projetos_Servidor\Ultragaz\Ultragaz\VendingMachine\obj\ARM\Release\ilc\in"
+/Lib:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.compiler\2.0.2\tools\ARM\ilc\lib\Private"
+/WinMD:"I:\Projetos_Servidor\Ultragaz\Ultragaz\VendingMachine\obj\ARM\Release\ilc\in\WinMetadata\Windows.System.SystemManagementContract.winmd"
+/WinMD:"I:\Projetos_Servidor\Ultragaz\Ultragaz\VendingMachine\obj\ARM\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{"AppId":1001,"AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","HostName":"Dev14","Id":"dbacd0b7-e788-477c-8d6f-efbe565d97b6","IsOptedIn":true,"ProcessStartTime":636667512386101707,"UserId":"ee6e4ca4-e746-4870-9895-bd68ad76f799"}"
+/RdXmlPath:"C:\Program Files (x86)\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.compiler\2.0.2\tools\LibraryXML"
+/RunOnlyPreDR
